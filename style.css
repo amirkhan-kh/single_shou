@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 1300px;
+    padding: 0 30px;
+    margin: 0 auto;
+    font-family: "Bebas Neue", sans-serif;
+}
+header{
+    max-width: 100%;
+    box-sizing:content-box;
+    padding: 10px 30px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+#search-form{
+    display: flex;
+    align-items: center;
+    border: 1px solid silver;
+    border-radius: 12px;
+}
+#search-input{
+    padding: 5px;
+    border: none;
+    padding: 0 15px;
+    font-size: 14px;
+}
+#search-btn{
+    padding: 5px;
+    border-radius: 12px;
+
+    background: rgb(255, 255, 255);
+    border: none;
+}
+.bottom{
+    background:rgb(255,141,27); ;
+    display: flex;
+}
+button{
+    background: rgb(255,141,27);
+    border: none;
+    color: white;
+    width: 180px;
+    height: 35px;
+}
+button:hover{
+    transition: 0.5s;
+    color: #ffffff;
+    background: #000;
+}
+#intro-photo{
+    width: 100%;
+    background-size: cover;
+    object-fit:cover;
+    height: 400px;
+
+}
+.cards{
+    gap: 15px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+}
+.cards> a{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+#body-res{
+    background-image: url(./images/bg.webp);
+    background-size: cover;
+    object-fit: cover;
+}
+.res{
+    padding: 50px;
+}
+.result{
+    background: rgba(255, 255, 255, 0.4);
+    border-radius:10px;
+    padding: 50px;
+    backdrop-filter: blur(5px);
+}
+.bio{
+    display: flex;
+    padding: 10px 0
+}
